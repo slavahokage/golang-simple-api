@@ -42,10 +42,10 @@ func (articleModel) GetArticle() *article {
 }
 
 func (a article) GetArticleText() string {
-	return a.Text;
+	return a.Text
 }
 
 func (a article) GetArticleHead() string {
-	return a.Headline;
+	return a.Headline
 }
 
